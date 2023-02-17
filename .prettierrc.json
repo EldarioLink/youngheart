@@ -1,0 +1,22 @@
+{
+  "singleQuote": true,
+  "semi": false,
+  "trailingComma": "none",
+  "htmlWhitespaceSensitivity": "ignore",
+
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "stylelintIntegration": true,
+  "eslintIntegration": true,
+  "tslintIntegration": true,
+  "vue/max-attributes-per-line": [
+    2,
+    {
+      "singleline": 20,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
+    }
+  ]
+}
